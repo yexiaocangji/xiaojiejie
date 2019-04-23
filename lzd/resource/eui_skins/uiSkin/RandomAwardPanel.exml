@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RandomAwardPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1671b869f38" ></w:Config>
+	<e:Group width="640" height="1136">
+		<e:Image width="500" height="522" source="xjj_backg_tcdi" scale9Grid="50,47,0,1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="xjj_img_tcbtbj" horizontalCenter="0" y="307"/>
+		<e:Image y="315.51" source="xjj_tcbt_3" horizontalCenter="-2" visible="false"/>
+		<e:Label id="titleType" text="金        币" y="315.38" bold="true" size="38" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x752308" horizontalCenter="0.5"/>
+		<e:Image y="385.2" horizontalCenter="-1.5" source="xjj_xguo_guang_png"/>
+		<e:Image id="gaintypeImg" y="462.44" horizontalCenter="0" scaleX="1.5" scaleY="1.5" source="xjj_icon_jinbi" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Label id="gainCount" text="" verticalCenter="62" horizontalCenter="0.5" fontFamily="Microsoft YaHei" textAlign="center"/>
+				<ns1:MyButton id="lingquBtn" xmlns:ns1="*" label="确定" scaleX="1" scaleY="1" top="694" width="194" height="82" y="841" horizontalCenter="-112">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,33,0,3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x0c441e" fontFamily="Microsoft YaHei" bold="true"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="lingqu4beiBtn" label="4倍领取" scaleX="1" scaleY="1" top="690" width="194" height="82" y="841" horizontalCenter="120">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,33,0,3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x0c441e" fontFamily="Microsoft YaHei" bold="true"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+	</e:Group>
+</e:Skin>

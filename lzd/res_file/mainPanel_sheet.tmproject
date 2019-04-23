@@ -1,0 +1,23 @@
+{
+    "projectName": "mainPanel_sheet",
+    "options": {
+        "extend": 0,
+        "layoutMath": "3",
+        "sizeMode": "free",
+        "useExtension": 0,
+        "layoutGap": 5
+    },
+    "files": [
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/jindutiao1.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/jindutiao.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl4.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl5.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl6.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl7.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl8.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl2.png",
+        "./../../../../../F:/CHESSPROJECT/wxproject/wxgame_resoure/休闲游戏/合成小姐姐/资源/登录主界面/xjj_dl3.png"
+    ],
+    "version": 5
+}

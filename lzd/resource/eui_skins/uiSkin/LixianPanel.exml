@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LixianPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1670afec05b" ></w:Config>
+	<e:Group width="100%" height="100%">
+		<e:Image id="runBg" verticalCenter="-42.5" horizontalCenter="2" source="xjj_xguo_guang2_png"/>
+		<e:Image source="xjj_img_tcbtlan" horizontalCenter="0" verticalCenter="-282.5"/>
+		<e:Image verticalCenter="-296" horizontalCenter="1" source="xjj_tcbt_8"/>
+		<e:Image verticalCenter="-42" horizontalCenter="-97" source="xjj_icon_jinbi"/>
+		<e:Label id="getGoldValue" text="" y="501.58" horizontalCenter="115" fontFamily="Microsoft YaHei" size="40" bold="true" stroke="2" strokeColor="0x000000" anchorOffsetX="0" width="268" anchorOffsetY="0" height="48" textAlign="left"/>
+		<ns1:MyButton id="closeBtn" xmlns:ns1="*" label="直接领取" scaleX="1" scaleY="1" top="823" y="134" anchorOffsetX="0" width="197.33" anchorOffsetY="0" height="42.67" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source=""/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textColor="0xffffff"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="shareBtn" xmlns:ns1="*" label="双倍领取" scaleX="1" scaleY="1" right="214" top="724" width="212.66" height="82" x="223" y="841" anchorOffsetX="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,33,0,3"/>
+			<e:Label id="labelDisplay" horizontalCenter="-2" verticalCenter="-3.5" textColor="0x0c441e" fontFamily="Microsoft YaHei" bold="true" size="34" text=""/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:MyButton>
+		<e:Label text="离线最大收益2小时" y="340" horizontalCenter="0" fontFamily="Microsoft YaHei" size="24"/>
+	</e:Group>
+</e:Skin>

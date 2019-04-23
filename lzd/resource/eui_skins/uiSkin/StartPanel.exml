@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="165eabe0ae9" ></w:Config>
+	<e:Group width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="0">
+		<e:Image width="100%" height="100%" scaleX="1" scaleY="1" source="beijint_jpg" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:MyButton id="startBtn" label="" width="329" height="132" horizontalCenter="0.5" verticalCenter="72">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_dl"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:MyButton>
+		<ns1:MyButton id="kefuBtn" label="" width="103" height="106" verticalCenter="242" horizontalCenter="-73.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_dl3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="rankBtn" label="" width="103" height="106" verticalCenter="242" horizontalCenter="83.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_dl4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="soundBtn" label="" width="103" height="106" x="428.88" y="756.76" skinName="SoundLuckBtnSkin" visible="false">
+		</ns1:MyButton>
+		<e:Image width="586" height="459" horizontalCenter="18" verticalCenter="-283.5" source="xjj_dl1_png"/>
+		<e:Label id="uidLabel" text="id:" textColor="0x0852af" fontFamily="Microsoft YaHei" horizontalCenter="132.5" verticalCenter="-95"/>
+		<e:Group id="favlistConstainer" width="378" height="153" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-3" bottom="98">
+			<e:Image width="378" height="151" x="-1" y="0" scaleX="1" scaleY="1" scale9Grid="15,17,2,3" source="" visible="false"/>
+			<e:Label text="猜你喜欢" x="14.960000000000008" y="26.33000000000004" anchorOffsetY="0" anchorOffsetX="0" fontFamily="Microsoft YaHei" size="26" height="122" width="36" scaleX="1" scaleY="1" textColor="0xffffff" visible="false"/>
+
+			<e:Scroller width="313" height="115" x="55" y="24" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Group id="otherGameGroup" width="100%" height="100%" y="1.52">
+					<e:layout>
+						<e:HorizontalLayout gap="30"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+
+
+
+
+</e:Skin>

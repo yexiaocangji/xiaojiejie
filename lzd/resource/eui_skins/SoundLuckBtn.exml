@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoundLuckBtnSkin" width="103" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1667c82d0b4" ></w:Config>
+	<e:Image height="100%" width="100%" source="xjj_dl5"/>
+	<e:Image id="unluck" height="100%" width="100%" source="xjj_dl5"/>
+</e:Skin>

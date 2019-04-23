@@ -1,0 +1,84 @@
+{
+	"groups": [
+		{
+			"keys": "xjj_backg_jsdijs_png,xjj_backg_dibu_png,xjj_backg_da_png,xjj_img_wanfa2_png,xjj_img_wanfa1_png,xjj_sheet_json,hecheng_eff_png,hecheng_eff_json,xjj_xguo_guang_png,xjj_zhuan_backg_png,xjj_zhuan_pan_png,ui_sheet_json,xgg_sheet_json,xcw_sheet_json",
+			"name": "subbag"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bigImage/xjj_backg_da.png",
+			"type": "image",
+			"name": "xjj_backg_da_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_backg_dibu.png",
+			"type": "image",
+			"name": "xjj_backg_dibu_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_backg_jsdijs.png",
+			"type": "image",
+			"name": "xjj_backg_jsdijs_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_img_wanfa1.png",
+			"type": "image",
+			"name": "xjj_img_wanfa1_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_img_wanfa2.png",
+			"type": "image",
+			"name": "xjj_img_wanfa2_png"
+		},
+		{
+			"url": "assets/sheet/xjj_sheet.json",
+			"type": "sheet",
+			"name": "xjj_sheet_json",
+			"subkeys": "xjj_1,xjj_10,xjj_11,xjj_12,xjj_13,xjj_14,xjj_15,xjj_16,xjj_17,xjj_18,xjj_19,xjj_2,xjj_20,xjj_21,xjj_22,xjj_23,xjj_24,xjj_25,xjj_26,xjj_27,xjj_28,xjj_29,xjj_3,xjj_30,xjj_31,xjj_32,xjj_33,xjj_34,xjj_35,xjj_36,xjj_37,xjj_38,xjj_4,xjj_5,xjj_6,xjj_7,xjj_8,xjj_9"
+		},
+		{
+			"url": "assets/mc/hecheng_eff.png",
+			"type": "image",
+			"name": "hecheng_eff_png"
+		},
+		{
+			"url": "assets/mc/hecheng_eff.json",
+			"type": "json",
+			"name": "hecheng_eff_json"
+		},
+		{
+			"url": "assets/bigImage/xjj_xguo_guang.png",
+			"type": "image",
+			"name": "xjj_xguo_guang_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_zhuan_backg.png",
+			"type": "image",
+			"name": "xjj_zhuan_backg_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_zhuan_pan.png",
+			"type": "image",
+			"name": "xjj_zhuan_pan_png"
+		},
+		{
+			"url": "assets/sheet/ui_sheet.json",
+			"type": "sheet",
+			"name": "ui_sheet_json",
+			"subkeys": "xjj_backg_jinbi,xjj_backg_jsdi,xjj_backg_tcdi,xjj_backg_tcheidi,xjj_backg_tcjb,xjj_backg_tcsd,xjj_buttom_1,xjj_buttom_2,xjj_buttom_3,xjj_buttom_4,xjj_buttom_5,xjj_buttom_6,xjj_buttom_7,xjj_buttom_8,xjj_buttom_czhia,xjj_buttom_czhib,xjj_buttom_jsqha,xjj_buttom_jsqhb,xjj_buttom_zuana,xjj_buttom_zuanb,xjj_frame_djdi,xjj_frame_jstxk,xjj_frame_paihwd,xjj_frame_qiand,xjj_frame_qiandldi,xjj_frame_qiandt,xjj_frame_yqtx,xjj_ic_shou,xjj_icon_1,xjj_icon_10,xjj_icon_11,xjj_icon_2,xjj_icon_3,xjj_icon_4,xjj_icon_5,xjj_icon_6,xjj_icon_7,xjj_icon_8,xjj_icon_9,xjj_icon_bofang,xjj_icon_chouti,xjj_icon_close,xjj_icon_hdian,xjj_icon_huishou,xjj_icon_jia,xjj_icon_jinbi,xjj_icon_jinbilv,xjj_icon_jsdj,xjj_icon_qhxcw,xjj_icon_qhxgg,xjj_icon_qhxjj,xjj_icon_yqren,xjj_icon_zuanshi,xjj_img_jiasu,xjj_img_juesedi,xjj_img_paih1,xjj_img_paih2,xjj_img_paih3,xjj_img_tcbtbj,xjj_img_tcbtlan,xjj_img_yiling,xjj_img_zuan1,xjj_img_zuan2,xjj_img_zuan3,xjj_img_zuan4,xjj_img_zuan5,xjj_img_zuan6,xjj_tcbt_1,xjj_tcbt_10,xjj_tcbt_2,xjj_tcbt_3,xjj_tcbt_4,xjj_tcbt_5,xjj_tcbt_6,xjj_tcbt_7,xjj_tcbt_8,xjj_tcbt_9,xjj_zhuan_kaishi,xjj_zhuan_quan,xjj_zhuan_quanbj,xjj_zhuan_xingy,xjj_zhuan_zhizhen"
+		},
+		{
+			"url": "assets/sheet/xgg_sheet.json",
+			"type": "sheet",
+			"name": "xgg_sheet_json",
+			"subkeys": "xgg_1,xgg_10,xgg_11,xgg_12,xgg_13,xgg_14,xgg_15,xgg_16,xgg_17,xgg_18,xgg_19,xgg_2,xgg_20,xgg_21,xgg_22,xgg_23,xgg_24,xgg_25,xgg_26,xgg_27,xgg_28,xgg_29,xgg_3,xgg_30,xgg_31,xgg_32,xgg_33,xgg_34,xgg_35,xgg_36,xgg_37,xgg_38,xgg_4,xgg_5,xgg_6,xgg_7,xgg_8,xgg_9"
+		},
+		{
+			"url": "assets/sheet/xcw_sheet.json",
+			"type": "sheet",
+			"name": "xcw_sheet_json",
+			"subkeys": "xcw_1,xcw_10,xcw_11,xcw_12,xcw_13,xcw_14,xcw_15,xcw_16,xcw_17,xcw_18,xcw_19,xcw_2,xcw_20,xcw_21,xcw_22,xcw_23,xcw_24,xcw_25,xcw_26,xcw_27,xcw_28,xcw_29,xcw_3,xcw_30,xcw_31,xcw_32,xcw_33,xcw_4,xcw_5,xcw_6,xcw_7,xcw_8,xcw_9"
+		}
+	]
+}

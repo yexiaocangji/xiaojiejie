@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopXjjItemSkinSkin" width="548" height="161" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1669eecb0de" ></w:Config>
+	<e:Group width="547.67" height="161" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="540" height="150" x="3.69" y="6.48" scaleX="1" scaleY="1" source="xjj_backg_tcsd" scale9Grid="28,29,0,0"/>
+		<e:Image x="44" y="58.32" source="xjj_icon_jsdj"/>
+		<e:Label id="level" text="1" x="48.68" y="67.7" size="22" fontFamily="Microsoft YaHei" textAlign="center" width="27"/>
+		<e:Image x="125.36" y="112.34" source="xjj_img_juesedi" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" width="94.43" anchorOffsetY="0" height="44.71"/>
+		<e:Image id="xjjImage" x="112.02" y="-7.38" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0" width="140" height="190" source=""/>
+		<ns1:MyButton id="buyBtn" xmlns:ns1="*" label="" scaleX="1" scaleY="1" right="33.66999999999996" top="31" width="200" height="89">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="buyBg" width="100%" height="100%" source="xjj_buttom_4" scale9Grid="40,11,0,67"/>
+			<e:Label id="labelDisplay" horizontalCenter="18.5" verticalCenter="-2" size="30" fontFamily="Microsoft YaHei" textColor="0x0c441e" bold="true"/>
+			<e:Image x="16.67" y="27.33" source="xjj_icon_jinbilv" width="34" height="34"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:MyButton>
+		<e:Group id="openGroup" width="144" height="125" x="345" y="17" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image id="xjjImage_open" x="30.35" y="-15.03" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0" width="140" height="190" source=""/>
+			<e:Label id="openLevel" text="" x="59.68" y="52.7" size="28" fontFamily="Microsoft YaHei" textAlign="center" width="40" scaleX="1" scaleY="1" anchorOffsetX="0" bold="true" stroke="2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,91 @@
+{
+	"groups": [
+		{
+			"keys": "config_json,xjj_backg_tcsd_png,xjj_frame_djdi_png,xjj_frame_paihwd_png,xjj_icon_jsdj_png,xjj_img_paih1_png,xjj_img_paih2_png,xjj_img_paih3_png,beijint_jpg,mainPanel_sheet_json,xjj_dl1_png,xjj_xguo_guang2_png,jingbi_tex_png,jingbi_tex_json,jingbi_ske_json,box_png",
+			"name": "lzd"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/config.json",
+			"type": "json",
+			"name": "config_json"
+		},
+		{
+			"url": "rank/xjj_backg_tcsd.png",
+			"type": "image",
+			"name": "xjj_backg_tcsd_png"
+		},
+		{
+			"url": "rank/xjj_frame_djdi.png",
+			"type": "image",
+			"name": "xjj_frame_djdi_png"
+		},
+		{
+			"url": "rank/xjj_frame_paihwd.png",
+			"type": "image",
+			"name": "xjj_frame_paihwd_png"
+		},
+		{
+			"url": "rank/xjj_icon_jsdj.png",
+			"type": "image",
+			"name": "xjj_icon_jsdj_png"
+		},
+		{
+			"url": "rank/xjj_img_paih1.png",
+			"type": "image",
+			"name": "xjj_img_paih1_png"
+		},
+		{
+			"url": "rank/xjj_img_paih2.png",
+			"type": "image",
+			"name": "xjj_img_paih2_png"
+		},
+		{
+			"url": "rank/xjj_img_paih3.png",
+			"type": "image",
+			"name": "xjj_img_paih3_png"
+		},
+		{
+			"url": "assets/bigImage/beijint.jpg",
+			"type": "image",
+			"name": "beijint_jpg"
+		},
+		{
+			"url": "assets/sheet/mainPanel_sheet.json",
+			"type": "sheet",
+			"name": "mainPanel_sheet_json",
+			"subkeys": "jindutiao,jindutiao1,xjj_dl,xjj_dl2,xjj_dl3,xjj_dl4,xjj_dl5,xjj_dl6,xjj_dl7,xjj_dl8"
+		},
+		{
+			"url": "assets/bigImage/xjj_dl1.png",
+			"type": "image",
+			"name": "xjj_dl1_png"
+		},
+		{
+			"url": "assets/bigImage/xjj_xguo_guang2.png",
+			"type": "image",
+			"name": "xjj_xguo_guang2_png"
+		},
+		{
+			"url": "assets/mc/jingbi_tex.png",
+			"type": "image",
+			"name": "jingbi_tex_png"
+		},
+		{
+			"url": "assets/mc/jingbi_tex.json",
+			"type": "json",
+			"name": "jingbi_tex_json"
+		},
+		{
+			"url": "assets/mc/jingbi_ske.json",
+			"type": "json",
+			"name": "jingbi_ske_json"
+		},
+		{
+			"url": "assets/bigImage/box.png",
+			"type": "image",
+			"name": "box_png"
+		}
+	]
+}

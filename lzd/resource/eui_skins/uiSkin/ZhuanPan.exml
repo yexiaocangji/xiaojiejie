@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuanPanSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166fc793685" ></w:Config>
+	<e:Image source="xjj_zhuan_backg_png" horizontalCenter="0" verticalCenter="-109.5"/>
+	<e:Group id="turnplateGroup" width="540" height="540" anchorOffsetY="270" horizontalCenter="0" verticalCenter="-79" anchorOffsetX="270">
+		<e:Image source="xjj_zhuan_pan_png" anchorOffsetX="258" anchorOffsetY="258" horizontalCenter="0" verticalCenter="-1"/>
+		<e:Group width="108" height="127" x="216" y="5" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label text="钻石x100" x="5" y="13" size="26" textColor="0xffffff" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_zuanshi"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="424" y="51" anchorOffsetX="0" anchorOffsetY="0" rotation="47.26">
+			<e:Label text="少量铜钱" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_jinbi" width="52" height="52"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="534" y="220" anchorOffsetX="0" anchorOffsetY="0" rotation="89.83">
+			<e:Label text="钻石x200" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_zuanshi"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="497" y="414" anchorOffsetX="0" anchorOffsetY="0" rotation="130.82">
+			<e:Label text="中量铜钱" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" width="52" height="52" source="xjj_icon_jinbi"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="332" y="534" anchorOffsetX="0" anchorOffsetY="0" rotation="179.6">
+			<e:Label text="钻石x400" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_zuanshi"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="128" y="494" anchorOffsetX="0" anchorOffsetY="0" rotation="221.22">
+			<e:Label text="大量铜钱" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_jinbi" width="52" height="52"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="7" y="325" anchorOffsetX="0" anchorOffsetY="0" rotation="269.78">
+			<e:Label text="钻石x800" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" source="xjj_icon_zuanshi"/>
+		</e:Group>
+		<e:Group width="108" height="127" x="49" y="127" anchorOffsetX="0" anchorOffsetY="0" rotation="310.66">
+			<e:Label text="海量铜钱" x="5" y="13" size="26" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" strokeColor="0x000000" stroke="2"/>
+			<e:Image x="28" y="71" width="52" height="52" source="xjj_icon_jinbi"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="pointerGroup" width="200" height="200" horizontalCenter="2" verticalCenter="-88">
+		<e:Image x="7.33" y="-17.32" source="xjj_zhuan_zhizhen"/>
+		<e:Image x="51.33" y="85.68" source="xjj_zhuan_xingy"/>
+	</e:Group>
+	<e:Group id="quanGroup" width="270.67" height="81.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-11.5" verticalCenter="249.5">
+		<e:Image width="170" height="40" x="47.99" y="17.69" source="xjj_zhuan_quanbj" scale9Grid="8,8,3,3"/>
+		<e:Image x="27.32" y="16.37" source="xjj_zhuan_quan"/>
+		<e:Label id="count" text="" x="109" y="24" width="80" size="26" bold="true" fontFamily="Microsoft YaHei" textColor="0xfee7be" textAlign="center"/>
+		<ns1:MyButton id="addBtn" label="" scaleX="1" scaleY="1" right="33.670000000000016" top="18" x="371" y="-590">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_icon_jia"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+	</e:Group>
+	<ns1:MyButton id="closeBtn" label="" scaleX="1" scaleY="1" right="28" top="187">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xjj_icon_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:MyButton>
+	<ns1:MyButton id="kaishiBtn" label="" scaleX="1" scaleY="1" right="212" top="874">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xjj_zhuan_kaishi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:MyButton>
+</e:Skin>

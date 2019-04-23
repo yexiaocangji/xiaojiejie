@@ -1,0 +1,101 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": true,
+        "globalAdsorbEnable": false,
+        "globalRulerEnable": false
+    },
+    "16130265c03": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100
+    },
+    "1669bd265f8": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\ShopPanel.ts",
+        "class": "ShopPanel",
+        "parentPath": ""
+    },
+    "1669eecb0de": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\ShopXjjItemSkin.ts",
+        "class": "ShopXjjItemSkin",
+        "parentPath": ""
+    },
+    "166a0264a82": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\HowToPlayPanel.ts",
+        "class": "HowToPlayPanel",
+        "parentPath": ""
+    },
+    "166a400602c": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\XjjModel.ts",
+        "class": "XjjModel",
+        "parentPath": ""
+    },
+    "166cf17cd09": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\checkInPanel.ts",
+        "class": "checkInPanel",
+        "parentPath": ""
+    },
+    "166ec4ce108": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\SpeedupPanel.ts",
+        "class": "SpeedupPanel",
+        "parentPath": ""
+    },
+    "166fc793685": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\ZhuanPan.ts",
+        "class": "ZhuanPan",
+        "parentPath": ""
+    },
+    "16706a5bacb": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\ShareGainQuan.ts",
+        "class": "ShareGainQuan",
+        "parentPath": ""
+    },
+    "16706d5ffe3": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\ZhuanPanResult.ts",
+        "class": "ZhuanPanResult",
+        "parentPath": ""
+    },
+    "16708001bca": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\UnlockPanel.ts",
+        "class": "UnlockPanel",
+        "parentPath": ""
+    },
+    "1670afec05b": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\LixianPanel.ts",
+        "class": "LixianPanel",
+        "parentPath": ""
+    },
+    "167112415ef": {
+        "path": "..\\resource\\eui_skins\\invite\\InvitePanel.ts",
+        "class": "InvitePanel",
+        "parentPath": ""
+    },
+    "1671124a773": {
+        "path": "..\\resource\\eui_skins\\invite\\InviteItem.ts",
+        "class": "InviteItem",
+        "parentPath": ""
+    },
+    "1671b869f38": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\RandomAwardPanel.ts",
+        "class": "RandomAwardPanel",
+        "parentPath": ""
+    },
+    "1671d633ae5": {
+        "path": "..\\resource\\eui_skins\\LoadingUI.ts",
+        "class": "LoadingUI",
+        "parentPath": ""
+    },
+    "1672bd41460": {
+        "path": "..\\resource\\eui_skins\\public\\loadingSlider.ts",
+        "class": "loadingSlider",
+        "parentPath": ""
+    },
+    "1673f33e2a9": {
+        "path": "..\\resource\\eui_skins\\uiSkin\\checkInItem.ts",
+        "class": "checkInItem",
+        "parentPath": ""
+    }
+}

@@ -1,0 +1,46 @@
+{
+	"engineVersion": "5.2.9",
+	"compilerVersion": "5.2.9",
+	"target": {
+		"current": "wxgame"
+	},
+	"template": {},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "ddsdk",
+			"path": "F://CHESSPROJECT//wxproject//小游戏SDK//libs_egret_min"
+		},
+		{
+			"name": "ddsdk_egret",
+			"path": "F://CHESSPROJECT//wxproject//小游戏SDK//libs_egret_min"
+		},		
+		{
+			"name": "decimal",
+			"path":"F://decimal.js-master"
+		}
+	]
+}

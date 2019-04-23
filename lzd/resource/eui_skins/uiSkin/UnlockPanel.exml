@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UnlockPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16708001bca" ></w:Config>
+	<e:Group width="100%" height="100%">
+		<e:Image id="runBg" verticalCenter="-18.5" horizontalCenter="0" source="xjj_xguo_guang2_png"/>
+		<e:Image source="xjj_img_tcbtlan" horizontalCenter="0" verticalCenter="-263.5"/>
+		<e:Image verticalCenter="-275" horizontalCenter="0" source="xjj_tcbt_9"/>
+
+		<e:Image y="732" anchorOffsetX="0" anchorOffsetY="0" source="xjj_icon_zuanshi" horizontalCenter="-60"/>
+		<e:Image id="xjjImg" verticalCenter="-43" width="222" height="300" source="" horizontalCenter="0"/>
+		<e:Label id="levelInfo" text="LV:0" y="353.29" horizontalCenter="1" fontFamily="Microsoft YaHei" size="32" bold="true"/>
+		<e:Label id="jiangliCount" text="+500" fontFamily="Microsoft YaHei" size="32" bold="true" textAlign="left" y="737" x="289"/>
+		<ns1:MyButton id="closeBtn" label="" scaleX="1" scaleY="1" right="30" top="267" x="576" y="134">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_icon_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="closeBtn0" label="算了，我不要" scaleX="1" scaleY="1" top="889" y="134" anchorOffsetX="0" width="197.33" anchorOffsetY="0" height="42.67" horizontalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source=""/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" bold="true" textColor="0xffffff"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+		<ns1:MyButton id="shareBtn" label="领取" scaleX="1" scaleY="1" right="223" top="797" width="194" height="82" x="223" y="841">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,33,0,3"/>
+				<e:Label id="labelDisplay" horizontalCenter="-2" verticalCenter="-3.5" textColor="0x0c441e" fontFamily="Microsoft YaHei" bold="true" size="34" text=""/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsItemSkin" width="528" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165c6b41220" ></w:Config>
+	<e:Image width="528" height="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" alpha="0.7" source="xjj_backg_jinbi" scale9Grid="15,0,0,30"/>
+	<e:Label id="tipsLabel" text="label" anchorOffsetX="0" width="522" anchorOffsetY="0" height="100%" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" bold="true" fontFamily="Microsoft YaHei" size="35" textColor="0xffffff"/>
+</e:Skin>

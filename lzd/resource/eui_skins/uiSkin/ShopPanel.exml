@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1669bd265f8" ></w:Config>
+	<e:Group width="640" height="1136">
+		<e:Image width="600" height="822.12" source="xjj_backg_tcdi" scale9Grid="50,47,0,1" horizontalCenter="0" verticalCenter="-20" anchorOffsetY="0"/>
+		<e:Image y="130.85" source="xjj_img_tcbtbj" horizontalCenter="0"/>
+		<e:Image y="141.49" horizontalCenter="-3.5" source="xjj_tcbt_1"/>
+		<ns1:MyButton id="closeBtn" label="" scaleX="1" scaleY="1" right="9" top="106">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_icon_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:MyButton>
+		<e:Group id="goldGroup" width="189.39" height="62.12" x="47.27" y="208" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image width="156" height="35" x="24" y="11.34" anchorOffsetY="0" anchorOffsetX="0" source="xjj_backg_tcjb" scale9Grid="15,12,0,0"/>
+			<e:Image x="4.31" y="8.67" source="xjj_icon_jinbi" width="40" height="40"/>
+			<e:Label id="goldNum" text="22001" x="40" y="14.97" size="26" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="136" textAlign="center"/>
+		</e:Group>
+		<e:Group id="diamondGroup" width="189.39" height="62.12" x="240.27" y="208" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image width="156" height="35" x="24" y="11.34" anchorOffsetY="0" anchorOffsetX="0" source="xjj_backg_tcjb" scale9Grid="15,12,0,0"/>
+			<e:Image x="4.31" y="8.67" source="xjj_icon_zuanshi"/>
+			<e:Label id="diamondNum" text="3500" x="48" y="14.97" size="26" fontFamily="Microsoft YaHei" bold="true" textAlign="center" anchorOffsetX="0" width="126"/>
+		</e:Group>
+		<e:Scroller id="scroll" width="553.03" height="621.21" y="276.15" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5">
+			<e:Group id="xjjGroup">
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

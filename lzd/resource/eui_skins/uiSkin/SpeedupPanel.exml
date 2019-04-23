@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpeedupPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166ec4ce108" ></w:Config>
+	<e:Group width="640" height="1136">
+		<e:Image width="582.67" height="584.79" source="xjj_backg_tcdi" scale9Grid="50,47,0,1" horizontalCenter="0.5" verticalCenter="39.5" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Image y="315" source="xjj_img_tcbtbj" horizontalCenter="0"/>
+		<e:Image y="325.39" horizontalCenter="-3.5" source="xjj_tcbt_4"/>
+		<ns1:MyButton id="closeBtn" xmlns:ns1="*" label="" scaleX="1" scaleY="1" right="10" top="294">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xjj_icon_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:MyButton>
+		<e:Group id="costJewelGroup" width="251.69" height="170" anchorOffsetX="0" anchorOffsetY="0" x="59" y="422">
+			<e:Image width="100%" height="100%" source="xjj_backg_tcsd" scale9Grid="20,18,0,0"/>
+			<e:Label text="100%加速60秒" x="35.65" y="11.34" fontFamily="Microsoft YaHei" size="26" textColor="0x833f1d"/>
+			<e:Label id="countDown1" text="持续：60s" y="47.34" fontFamily="Microsoft YaHei" size="20" textColor="0x398000" horizontalCenter="0"/>
+			<ns1:MyButton id="costJewelBtn" label="x10" scaleX="1" scaleY="1" top="83" x="30.5" y="-128" width="193.4" height="70" anchorOffsetY="0" anchorOffsetX="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,31,1,0"/>
+	<e:Image x="32.4" y="15.6" source="xjj_icon_zuanshi" anchorOffsetY="0" height="36" anchorOffsetX="0" width="42"/>
+					<e:Label id="labelDisplay" horizontalCenter="22.5" verticalCenter="-3.5" text="X 10" size="26" fontFamily="Microsoft YaHei" textColor="0x0c441e"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MyButton>
+		</e:Group>
+		<e:Group id="watchAdGroup" width="251.69" height="170" anchorOffsetX="0" anchorOffsetY="0" x="332" y="422">
+			<e:Image width="100%" height="100%" source="xjj_backg_tcsd" scale9Grid="20,18,0,0"/>
+			<e:Label text="100%加速180秒" x="27.65" y="12.34" fontFamily="Microsoft YaHei" size="26" textColor="0x833F1D"/>
+			<e:Label id="countDown2" text="持续：180s" y="47.34" fontFamily="Microsoft YaHei" size="20" textColor="0x398000" horizontalCenter="0"/>
+			<ns1:MyButton id="watchAdBtn" label="观看视频" scaleX="1" scaleY="1" top="83" x="26.5" y="-128" width="193.4" height="70" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_buttom_4" scale9Grid="37,31,1,0"/>
+	<e:Image x="19.68" y="15.66" source="xjj_icon_bofang"/>
+				<e:Label id="labelDisplay" horizontalCenter="21.5" verticalCenter="-2.5" text="观看视频" size="26" fontFamily="Microsoft YaHei" textColor="0x0c441e"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:MyButton>
+		</e:Group>
+		<e:Group id="yaoqingGroup" width="519.87" height="244" anchorOffsetX="0" anchorOffsetY="0" x="62.2" y="616.85">
+			<e:Image width="100%" height="100%" source="xjj_backg_tcsd" scale9Grid="20,18,0,0"/>
+			<ns1:MyButton id="yaoQingBtn" label="邀请好友" scaleX="1" scaleY="1" x="339.17" y="68" width="154" height="70" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xjj_buttom_6" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="31,32,3,4"/>
+				<e:Label id="labelDisplay" horizontalCenter="3.5" verticalCenter="-3" text="邀请好友" size="28" fontFamily="Microsoft YaHei" textColor="0xffffff" bold="true" stroke="2" strokeColor="0x973a07"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:MyButton>
+			<e:Label id="countDown3" text="今日已领取" x="348.65" y="149.34" fontFamily="Microsoft YaHei" size="20" textColor="0x398000" anchorOffsetX="0" width="141.34" textAlign="center" visible="false"/>
+			<e:Label text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " y="176.35" fontFamily="Microsoft YaHei" size="18" textColor="0x833F1D" width="512" height="18" horizontalCenter="0"/>
+			<e:Label id="tipsLabel" text="邀请3名新人立即获得10小时收益" y="200.98" fontFamily="Microsoft YaHei" size="26" textColor="0x833F1D" horizontalCenter="0"/>
+			<e:Group id="friend1Group" width="83" height="85.5" x="27" y="58.5" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image source="xjj_frame_jstxk" width="100%" height="100%"/>
+				<e:Image source="xjj_icon_yqren" y="11" x="14"/>
+				<e:Image id="friend1" width="100%" height="100%"/>
+				<e:Label id="name1" text="第一位" x="0" y="89.5" size="20" fontFamily="Microsoft YaHei" textColor="0x833f1d" anchorOffsetX="0" width="82.5" textAlign="center"/>
+			</e:Group>
+			<e:Group id="friend2Group" width="83" height="85.5" x="123.5" y="58.5" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image source="xjj_frame_jstxk" width="100%" height="100%"/>
+				<e:Image source="xjj_icon_yqren" y="11" x="14"/>
+				<e:Image id="friend2" width="100%" height="100%" scaleX="1" scaleY="1"/>
+				<e:Label id="name2" text="第二位" x="0" y="89.5" size="20" fontFamily="Microsoft YaHei" textColor="0x833F1D" anchorOffsetX="0" width="82.5" textAlign="center" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="friend3Group" width="83" height="85.5" x="217.5" y="58.5" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image source="xjj_frame_jstxk" width="100%" height="100%"/>
+				<e:Image source="xjj_icon_yqren" y="11" x="14"/>
+				<e:Image id="friend3" width="100%" height="100%"/>
+				<e:Label id="name3" text="第三位" x="0" y="89.5" size="20" fontFamily="Microsoft YaHei" textColor="0x833F1D" anchorOffsetX="0" width="82.5" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="nodisplay" width="519.87" height="244" x="62.2" y="616.85" visible="false">
+			<e:Image width="100%" height="100%" source="xjj_backg_tcsd" scale9Grid="22,10,0,0"/>
+			<e:Image x="-13.8" anchorOffsetX="0" anchorOffsetY="0" source="xjj_1" y="18.2" scaleX="0.7" scaleY="0.7"/>
+			<e:Image x="133.36" anchorOffsetX="0" anchorOffsetY="0" source="xjj_1" verticalCenter="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image x="362.84" anchorOffsetX="0" anchorOffsetY="0" source="xjj_2" y="15.74" scaleX="0.7" scaleY="0.7"/>
+			<e:Label text="合成\n===&gt;" x="258.72" y="104" anchorOffsetX="0" anchorOffsetY="0" textColor="0x333333" textAlign="center" width="129" size="28" fontFamily="Microsoft YaHei"/>
+			<e:Label text="+" x="120" y="110" anchorOffsetX="0" anchorOffsetY="0" textColor="0x333333" fontFamily="Microsoft YaHei" size="40" bold="true"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

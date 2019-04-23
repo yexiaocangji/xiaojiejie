@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OtherGameSkinSkin" width="80" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:local="*">
+	<w:Config id="1659ec185cd" ></w:Config>
+	<local:MyButton id="jumpBtn" label="" icon="" width="75" height="75" top="4" horizontalCenter="0.5">
+		<local:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="icon" width="100%" height="100%" source=""/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="58" textColor="0xffffff" size="20"/>
+			<e:Image width="15" height="15" horizontalCenter="33" verticalCenter="-33" source=""/>
+			</e:Skin>
+		</local:skinName>
+	</local:MyButton>
+</e:Skin>

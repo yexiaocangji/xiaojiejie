@@ -1,0 +1,24 @@
+游戏说明
+    技能类型type
+        1=>增加伤害
+        2=>增加暴击
+        3=>增加暴击伤害
+        4=>增加金币比例
+        5=>增加点击伤害(可看作类型1)
+        6=>技能突破
+    数据结构
+        用于表示游戏进度
+            Player=>矿工
+            Magic=>魔法
+        用于表示配置结构
+            CfgPlayer=>矿工配置
+            CfgPlayerSkill=>矿工技能配置
+            CfgMagic=>魔法配置
+            CfgNormalSkill=>普通技能配置(钻石购买)
+    矿工伤害配置
+        "baseDps"=>突破0初始伤害
+        "addDps"=>突破0初始增加伤害
+        "breakthroughGold"=>突破0金币(购买）
+        "dpsTimes"=>突破0每级增加的伤害倍数
+        "costGoldTimes"=>突破0每级消耗金币倍数初始值
+        "addTimes"=>突破0每级消耗金币倍数增加值

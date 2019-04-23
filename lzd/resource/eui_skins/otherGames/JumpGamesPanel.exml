@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JumpGamesPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:local="*">
+	<w:Config id="1659eb8834e" ></w:Config>
+	<e:Image id="bg_close" width="100%" height="100%"/>
+	<e:Group id="jumpgames" width="348" height="618" anchorOffsetX="0" anchorOffsetY="0" x="-348" top="283">
+		<e:Image width="100%" height="100%" y="0" x="0" scale9Grid="22,21,0,0" alpha="1" source="chou_bg"/>
+		<local:MyButton id="jumpGamesBtn" label="" y="35.21" x="346.01" anchorOffsetX="0" width="76" anchorOffsetY="0" height="89">
+			<local:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chou_chu"/>
+				<e:Image width="100%" height="100%" source="chou_jin" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</local:skinName>
+		</local:MyButton>
+		<e:Scroller width="310" height="564" y="30" horizontalCenter="0">
+			<e:Group id="jumpContainer" height="100%" width="100%"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1671d633ae5" ></w:Config>
+	<e:Image width="100%" height="100%" x="0" y="0" source="beijint_jpg"/>
+	<e:Image width="586" height="459" horizontalCenter="18" verticalCenter="-283.5" source="xjj_dl1_png"/>
+		<e:HSlider id="slider" width="325" height="20" anchorOffsetX="0" anchorOffsetY="0" bottom="385"  skinName="loadingSliderSkin" horizontalCenter="0">
+		
+		</e:HSlider>
+		<e:Label text="加载游戏" size="24" fontFamily="Microsoft YaHei" width="200" textAlign="center" verticalAlign="middle" bottom="344" horizontalCenter="0"/>	
+</e:Skin>
